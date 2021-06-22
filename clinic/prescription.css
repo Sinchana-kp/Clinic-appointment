@@ -1,0 +1,71 @@
+section{
+	width: 75%;
+	float: left;
+	height: 100vh;
+	background-image: linear-gradient(#d5d5e7,#d5e3f8);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	align-items: center;
+	justify-content: center;
+	padding-top: 80px;
+	
+
+}
+section{
+	padding-top: 10px;
+	height: 1000vh;
+	color: black;
+	text-align: center;
+}
+table{
+	border-collapse:collapse;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+	border-radius: 10px;
+	margin: auto;
+}
+th,td{
+	border:1px solid black;
+	padding: 8px 30px;
+	text-align: center;
+	color: black;
+}
+th{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+td{
+	font-size: 16px;
+}
+button{
+	background-color: #00ff00;
+}
+
+
+.right{
+	width: 25%;
+	float: left;
+	background-color: black;
+	height: 100vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 45px;
+	color: white;
+
+
+}
+.profile{
+	color: white;
+	font-size: 30px;
+	font-family: new time roman;
+	padding-top: 10px;
+}
+.profile_d{
+	color: white;
+	font-size: 20px;
+	padding-left: 50px;
+}
+.med_table{
+	text-decoration: underline;
+	font-size: 30px;
+}

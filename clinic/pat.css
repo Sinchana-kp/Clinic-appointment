@@ -1,0 +1,59 @@
+body{
+	font-family: new time roman;
+}
+section{
+	width: 65%;
+	float: left;
+	height: 100%;
+	background-image: linear-gradient(#d5d5e7,#d5e3f8);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	align-items: center;
+	justify-content: center;
+	padding-top: 80px;
+
+}
+.right{
+	width: 35%;
+	float: left;
+	background-color: black;
+	height: 133vh;
+	background-size: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 45px;
+	color: white;
+
+}
+
+
+.segment{
+    color: white;
+    font-family: poppins;
+
+
+}
+
+
+.pr{
+	color: white;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.card-body {
+	padding-left: 30px;
+}
+
+.profile{
+	color: white;
+	font-size: 30px;
+	font-family: new time roman;
+	padding-top: 10px;
+}
+.profile_d{
+	color: white;
+	font-size: 20px;
+	padding-left: 50px;
+}

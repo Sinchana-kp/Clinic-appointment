@@ -1,0 +1,23 @@
+#quote{
+    font-style: thick;
+    font-family: cursive;
+    color: black;
+    font-size: 40px;
+}
+
+
+#contacts{
+    text-align:center;
+    background-color:black;
+
+}
+
+.segment{
+    color: white;
+    font-family: poppins;
+}
+
+.media{
+   text-align: center;
+    font-size: 40px;
+}

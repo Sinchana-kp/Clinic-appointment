@@ -1,0 +1,29 @@
+section{
+	padding-top: 10px;
+	height: 1000vh;
+	color: black;
+	text-align: center;
+}
+table{
+	border-collapse:collapse;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+	border-radius: 10px;
+	margin: auto;
+}
+th,td{
+	border:1px solid black;
+	padding: 8px 30px;
+	text-align: center;
+	color: black;
+}
+th{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+td{
+	font-size: 16px;
+}
+button{
+	background-color: #00ff00;
+}
+

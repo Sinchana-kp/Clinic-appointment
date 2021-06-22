@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="newreg.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+	<title>Registration</title>
+</head>
+<body>
+
+<div class="container">
+	
+	<div class="header">
+		<h2>Register</h2>
+	</div>
+	<form id="form" class="form" method="POST" action="newreg.php">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="florinpop17" id="username" name="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Name</label>
+			<input type="text" placeholder="florinpop" id="name" name="name" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Mobile</label>
+			<input type="tel" placeholder="mobile" id="mobile" name="mobile" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="a@gmail.com" id="email" name="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">City</label>
+			<input type="text" placeholder="Mysore" id="city" name="city" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Gender</label>
+			<select class="selection" id="gender" name="gender">
+				<option selected hidden value="">select</option>
+				<option value="m">Male</option>
+				<option value="f">Female</option>
+				<option value="o">Others</option>
+			</select>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password" name="password" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password check</label>
+			<input type="password" placeholder="Password confirmation" id="password2" name="confirmation" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<button>Submit</button>
+	</form>
+</div>
+
+<div style="margin-left: 140px;  font-size: 20px;">
+	<i class="fas fa-user-circle fa-9x" style="margin-left: 100px;padding-top: 180px;"></i>
+	<p>Already having an account? <a href="p.html" style="padding-left: 4px; ">Login here</a></p>
+	<p>Need to go back? <a href="index.html" style="padding-left: 30px;">Click here</a></p>
+</div>
+
+</body>
+</html>
